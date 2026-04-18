@@ -1,0 +1,11 @@
+:3}]},
+{id:2,dimension:"EI",text:"忙碌了一周后，你更倾向于怎样恢复精力？",options:[{text:"约朋友出去吃饭或聚会",value:"E",weight:3},{text:"看心情，有时想社交有时不想",value:"E",weight:1},{text:"在家安静地看书或追剧",value:"I",weight:1},{text:"一个人独处，谁也别来打扰",value:"I",weight:3}]},
+{id:3,dimension:"EI",text:"在工作会议或课堂讨论中，你通常？",options:[{text:"积极发言，乐于表达想法",value:"E",weight:3},{text:"偶尔发言，但更想听别人的",value:"I",weight:1},{text:"先在心里想好再说",value:"I",weight:2},{text:"除非被点名，否则基本不说话",value:"I",weight:3}]},
+{id:4,dimension:"EI",text:"接到一个陌生号码来电，你会？",options:[{text:"毫不犹豫地接起来",value:"E",weight:3},{text:"接起来，但有点紧张",value:"E",weight:1},{text:"犹豫一下再接",value:"I",weight:1},{text:"先发短信问是谁",value:"I",weight:3}]},
+{id:5,dimension:"EI",text:"你的社交软件状态通常是？",options:[{text:"朋友圈/动态更新很频繁",value:"E",weight:3},{text:"偶尔发一下有趣的事",value:"E",weight:1},{text:"很少发，但会看别人的",value:"I",weight:1},{text:"基本不更新，甚至很少打开",value:"I",weight:3}]},
+{id:6,dimension:"SN",text:"学习新东西时，你更喜欢？",options:[{text:"有具体步骤和实际案例",value:"S",weight:3},{text:"先了解大致框架，再慢慢摸索",value:"S",weight:1},{text:"理解背后的原理和逻辑",value:"N",weight:1},{text:"跳出框架思考，探索各种可能性",value:"N",weight:3}]},
+{id:7,dimension:"SN",text:"别人描述一件事时，你更关注？",options:[{text:"具体的细节和事实",value:"S",weight:3},{text:"细节居多，但也想听大概",value:"S",weight:1},{text:"整体方向和背后的含义",value:"N",weight:1},{text:"这件事意味着什么、未来会怎样",value:"N",weight:3}]},
+{id:8,dimension:"SN",text:"你更欣赏哪种类型的人？",options:[{text:"脚踏实地、做事靠谱的人",value:"S",weight:3},{text:"务实但偶尔也有想法的人",value:"S",weight:1},{text:"有创意、爱幻想的人",value:"N",weight:1},{text:"脑洞大开、充满想象力的人",value:"N",weight:3}]},
+{id:9,dimension:"SN",text:"看一部电影后，你更可能？",options:[{text:"记住具体的情节和台词",value:"S",weight:3},{text:"记住精彩片段和感受",value:"S",weight:1},{text:"思考电影想表达的深层含义",value:"N",weight:1},{text:"联想到自己的人生和其他作品",value:"N",weight:3}]},
+{id:10,dimension:"SN",text:"工作中你更擅长？",options:[{text:"按部就班地完成具体任务",value:"S",weight:3},{text:"执行计划，偶尔优化流程",value:"S",weight:1},{text:"提出新想法和改进方案",value:"N",weight:1},{text:"制定战略和构想未来蓝图",value:"N",weight:3}]},
+{id:11,dimension:"TF",text:"朋友向你倾诉烦恼时，你通常会？",options:[{text:"帮ta分析问题，给出解决方案",val

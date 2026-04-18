@@ -1,0 +1,45 @@
+ite; }
+.btn-restart { background: var(--bg-card); color: var(--text-primary); border: 1px solid var(--border); }
+.btn-share:hover, .btn-restart:hover { transform: translateY(-2px); }
+.result-footer { text-align: center; color: var(--text-muted); font-size: 0.875rem; padding: 1rem 0; }
+@media (max-width: 640px) {
+    .logo h1 { font-size: 3rem; }
+    .question-card { padding: 1.5rem; }
+    .question-text { font-size: 1.15rem; }
+    .result-type { font-size: 3rem; }
+    .stats { gap: 1.5rem; }
+    .action-buttons { flex-direction: column; }
+    .btn-share, .btn-restart { width: 100%; }
+}
+    </style>
+</head>
+<body>
+<div class="page" id="landing-page">
+    <div class="landing-content">
+        <div class="logo"><div class="logo-icon">🧠</div><h1>SBTI</h1><p class="subtitle">性格类型测试</p></div>
+        <div class="intro-text">
+            <p>🔥 最近全网爆火的性格测试</p>
+            <p>只需 <strong>5 分钟</strong>，回答 <strong>20 道题</strong></p>
+            <p>发现你的 <strong>16 型人格</strong> 之一！</p>
+        </div>
+        <button class="btn-start" onclick="startTest()">开始测试 ✨</button>
+        <div class="stats">
+            <div class="stat-item"><span class="stat-num">1,234,567</span><span class="stat-label">已完成测试</span></div>
+            <div class="stat-item"><span class="stat-num">16</span><span class="stat-label">人格类型</span></div>
+            <div class="stat-item"><span class="stat-num">98%</span><span class="stat-label">好评率</span></div>
+        </div>
+    </div>
+</div>
+
+<div class="page hidden" id="test-page">
+    <div class="test-container">
+        <div class="progress-section">
+            <div class="progress-info">
+                <span id="question-counter">问题 1 / 20</span>
+                <span id="dimension-label">精力来源</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+        </div>
+        <div class="question-card" id="question-card">
+            <div class="question-number" id="q-number">Q1</div>
+        

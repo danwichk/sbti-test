@@ -1,0 +1,44 @@
+    <h2 class="question-text" id="question-text">加载中...</h2>
+            <div class="options" id="options-container"></div>
+        </div>
+        <div class="nav-buttons">
+            <button class="btn-nav" id="btn-prev" onclick="prevQuestion()" disabled>← 上一题</button>
+            <button class="btn-nav" id="btn-next" onclick="nextQuestion()" disabled>下一题 →</button>
+        </div>
+    </div>
+</div>
+
+<div class="page hidden" id="loading-page">
+    <div class="loading-content">
+        <div class="spinner"></div>
+        <h2>正在分析你的性格...</h2>
+        <p id="loading-text">读取答案中...</p>
+    </div>
+</div>
+
+<div class="page hidden" id="result-page">
+    <div class="result-container">
+        <div class="result-header">
+            <span class="result-badge">你的 SBTI 人格类型</span>
+            <h1 class="result-type" id="result-type">INTJ</h1>
+            <p class="result-title" id="result-title">建筑师型人格</p>
+        </div>
+        <div class="result-card">
+            <div class="personality-emoji" id="result-emoji">🏗️</div>
+            <p class="result-description" id="result-description"></p>
+        </div>
+        <div class="dimensions-result" id="dimensions-result"></div>
+        <div class="traits-section"><h3>🎯 你的核心特质</h3><div class="traits-list" id="traits-list"></div></div>
+        <div class="famous-section"><h3>🌟 同类型名人</h3><p id="famous-people"></p></div>
+        <div class="compatibility-section"><h3>💕 最佳配对</h3><p id="compatibility"></p></div>
+        <div class="action-buttons">
+            <button class="btn-share" onclick="shareResult()">📤 分享结果</button>
+            <button class="btn-restart" onclick="restartTest()">🔄 重新测试</button>
+        </div>
+        <div class="result-footer"><p>SBTI 性格测试 | 仅供娱乐参考</p></div>
+    </div>
+</div>
+
+<script>
+var questions=[
+{id:1,dimension:"EI",text:"在一场热闹的聚会上，你通常会？",options:[{text:"主动和很多人攀谈，享受社交",value:"E",weight:3},{text:"和几个熟悉的人待在一起",value:"E",weight:1},{text:"找个安静的角落，和少数人深聊",value:"I",weight:1},{text:"待一会儿就想回家",value:"I",weight

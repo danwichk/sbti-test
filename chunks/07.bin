@@ -1,0 +1,10 @@
+ue:"T",weight:3},{text:"先安慰，再适当给建议",value:"T",weight:1},{text:"先倾听和共情，让ta感觉被理解",value:"F",weight:1},{text:"陪ta一起感受情绪，不太急着解决",value:"F",weight:3}]},
+{id:12,dimension:"TF",text:"做重要决定时，你更依赖？",options:[{text:"逻辑分析和客观数据",value:"T",weight:3},{text:"理性分析，但也会参考他人意见",value:"T",weight:1},{text:"内心感受和价值观",value:"F",weight:1},{text:"直觉和对人的影响",value:"F",weight:3}]},
+{id:13,dimension:"TF",text:"在团队合作中发生分歧时，你会？",options:[{text:"用事实和道理说服对方",value:"T",weight:3},{text:"坚持自己的观点，但注意方式",value:"T",weight:1},{text:"寻找折中方案，维护和谐",value:"F",weight:1},{text:"优先考虑大家的感受和团队氛围",value:"F",weight:3}]},
+{id:14,dimension:"TF",text:"你觉得哪种评价更让你不舒服？",options:[{text:"你不讲逻辑，做事不理性",value:"T",weight:3},{text:"你能力不够强",value:"T",weight:1},{text:"你不近人情，太冷漠",value:"F",weight:1},{text:"你不关心别人的感受",value:"F",weight:3}]},
+{id:15,dimension:"TF",text:"评价一件事的好坏，你更看重？",options:[{text:"结果和效率",value:"T",weight:3},{text:"结果，但过程也重要",value:"T",weight:1},{text:"过程中大家的感受",value:"F",weight:1},{text:"是否公平、是否照顾到每个人",value:"F",weight:3}]},
+{id:16,dimension:"JP",text:"你的桌面/房间通常是？",options:[{text:"整整齐齐，东西有固定位置",value:"J",weight:3},{text:"大体整洁，偶尔有点乱",value:"J",weight:1},{text:"有点乱但自己能找到东西",value:"P",weight:1},{text:"比较随性，乱中有序",value:"P",weight:3}]},
+{id:17,dimension:"JP",text:"面对一个截止日期，你会？",options:[{text:"提前做好计划，留出充裕时间",value:"J",weight:3},{text:"大致规划，基本能按时完成",value:"J",weight:1},{text:"最后几天才开始紧张赶工",value:"P",weight:1},{text:"Deadline 才是第一生产力",value:"P",weight:3}]},
+{id:18,dimension:"JP",text:"出去旅行时，你更倾向于？",options:[{text:"提前做好详细攻略和行程表",value:"J",weight:3},{text:"大致计划，但保留灵活性",value:"J",weight:1},{text:"到了再说，随遇而安",value:"P",weight:1},{text:"说走就走，享受未知和惊喜",value:"P",weight:3}]},
+{id:19,dimension:"JP",text:"你的待办清单（To-Do List）使用情况？",options:[{text:"每天都列，完成一项划掉一项",value:"J",weight:3},{text:"偶尔列一下，帮助记忆",value:"J",weight:1},{text:"很少列，记在脑子里",value:"P",weight:1},{text:"从来不列，想到什么做什么",value:"P",weight:3}]},
+{id:20,dimension:"JP",text:"计划突然被打乱时，你会？",options:[{text:"感到焦虑，尽快恢复原计划",value:"J",weight:3},{text:"有点不爽，但能适应",value:"J",weight:1},{text:
